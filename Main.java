@@ -5,6 +5,7 @@ public class Main {
 
         Problem.register("1", new Maxi());
         Problem.register("2", new Mini());
+        Problem.register("3", new Sum());
 
         Util.checkArgument(PROG_NAME, args);
 

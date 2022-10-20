@@ -32,7 +32,7 @@ public class Util {
 
     public static void checkArgument(String progName, String[] args) {
         if (args.length == 0) {
-            System.out.println("Usage: " + progName + " (1|2)");
+            System.out.println("Usage: " + progName + " (1|2|3)");
             System.exit(0);
         }
 
